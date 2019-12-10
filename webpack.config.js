@@ -2,7 +2,7 @@ const path = require('path');
 module.exports = {
     mode: 'development',
     //la direccion de origen 
-    entry: path.join(__dirname, 'main'),
+    entry: path.join(__dirname, 'main', ),
     watch: true,
     output: {
         path: path.join(__dirname, 'dist'),
