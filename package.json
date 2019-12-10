@@ -1,0 +1,26 @@
+{
+  "name": "proyecto-w-p",
+  "version": "1.0.0",
+  "description": "Proyecto Web Pack",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robertfox11/ProyectoWebPack.git"
+  },
+  "keywords": [
+    "web",
+    "pack"
+  ],
+  "author": "Robert Salazar Arias <11rsahome@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/robertfox11/ProyectoWebPack/issues"
+  },
+  "homepage": "https://github.com/robertfox11/ProyectoWebPack#readme",
+  "devDependencies": {
+    "webpack": "^4.41.2"
+  }
+}
