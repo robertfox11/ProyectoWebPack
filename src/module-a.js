@@ -1,11 +1,10 @@
-// Usu de const
-const btn = document.querySelector('#btn');
-btn.addEventListener('click', function() {
-    // uso de let
+// Uso de const
+
+export function card() {
     let card = document.querySelector('.card-title');
     // funcion de flecha
     var sumar = (num1, num2) => num1 + num2;
-    card.innerHTML = sumar(10, 20)
+    card.innerHTML = sumar(15, 20)
         // Template String
     console.log("Sumar " + sumar(10, 20));
-});
+}

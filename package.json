@@ -1,30 +1,32 @@
 {
-  "name": "proyecto-w-p",
-  "version": "1.0.0",
-  "description": "Proyecto Web Pack",
-  "main": "main.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/robertfox11/ProyectoWebPack.git"
-  },
-  "keywords": [
-    "web",
-    "pack"
-  ],
-  "author": "Robert Salazar Arias <11rsahome@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/robertfox11/ProyectoWebPack/issues"
-  },
-  "homepage": "https://github.com/robertfox11/ProyectoWebPack#readme",
-  "devDependencies": {
-    "webpack": "^4.41.2"
-  },
-  "dependencies": {
-    "jQuery": "^1.7.4",
-    "jquery": "^3.4.1"
-  }
+    "name": "proyecto-w-p",
+    "version": "1.0.0",
+    "description": "Proyecto Web Pack",
+    "main": "main.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/robertfox11/ProyectoWebPack.git"
+    },
+    "keywords": [
+        "web",
+        "pack"
+    ],
+    "author": "Robert Salazar Arias <11rsahome@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/robertfox11/ProyectoWebPack/issues"
+    },
+    "homepage": "https://github.com/robertfox11/ProyectoWebPack#readme",
+    "devDependencies": {
+        "babel-minify-webpack-plugin": "^0.3.1",
+        "webpack": "^4.41.2",
+        "webpack-cli": "^3.3.10"
+    },
+    "dependencies": {
+        "html-webpack-plugin": "^3.2.0",
+        "jquery": "^3.4.1"
+    }
 }
