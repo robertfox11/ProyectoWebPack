@@ -66,7 +66,7 @@ module.exports = {
         }),
         new MiniCssExtractPlugin({
             // Creamos el codigo de salida Css
-            filename: 'bundle.css'
+            filename: 'assets/scss/bundle.css'
         })
     ],
 
