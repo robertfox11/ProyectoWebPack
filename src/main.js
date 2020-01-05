@@ -1,5 +1,7 @@
-import { card } from "./module-a";
-import { color } from "./module-b";
+import { card } from "./assets/js/module-a";
+import { color } from "./assets/js/module-b";
+
+import "./assets/style.scss";
 
 
 const btn = document.querySelector('#btn');
