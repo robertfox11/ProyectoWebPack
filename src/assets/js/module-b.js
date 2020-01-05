@@ -1,7 +1,4 @@
-// $(document).ready(function() {
-//     //Capturamos el evento y se ha cargado correctamente Jquery
-// console.log("Hello Worl Jquery");
-//recogemos el id box para realizar el evento mouseover y capturamos el evento hover
+// Exportamos funciones jQuery
 
 export function color() {
     var _box = $(".card-deck");
@@ -9,4 +6,3 @@ export function color() {
         $(this).css("background", "yellow");
     });
 }
-// });

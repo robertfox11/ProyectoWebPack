@@ -1,7 +1,8 @@
 $body-color: red;
+$h1-color:white;
 body {
     background: $body-color;
     h1 {
-        color: $body-color;
+        color: $h1-color;
     }
 }

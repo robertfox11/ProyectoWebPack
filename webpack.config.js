@@ -1,4 +1,5 @@
 const HtmlWebPackPlugin = require('html-webpack-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const path = require('path');
 const webpack = require("webpack");
 module.exports = {
@@ -14,21 +15,25 @@ module.exports = {
     },
     module: {
         rules: [{
-            test: /\.scss$/i,
-            use: [
-                { loader: 'style-loader' }, { loader: 'css-loader' }, { loader: 'scss-loader' }
-            ]
-        }, ],
+                test: /\.s[ac]ss$/i,
+                use: [
+                    MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader'
+                ],
+            },
+            { test: /\.txt$/, use: 'raw-loader' }
+        ],
     },
     devServer: {
         port: 5000
     },
-
-
     plugins: [
         new HtmlWebPackPlugin({
             //vamos a copiar este index para mandarlo al dist
             template: './src/index.html'
+        }),
+        new MiniCssExtractPlugin({
+            // template: './src/main.scss',
+            filename: 'bundle.css'
         })
     ],
 
